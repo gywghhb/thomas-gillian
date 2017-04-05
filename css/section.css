@@ -1,0 +1,69 @@
+/*
+* Tom's Material Monochrome Theme - section extension v0.1
+* Copyright 2016, Fenghao Guo
+* twitter: @gywghhb
+* Under no license,  use under author's consent.
+* D/3/2016
+*/
+
+/* block style */
+.block-media-left, .block-media-right {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+}
+/* secondary-wrapper override */
+.block-media-left .secondary-wrapper, .block-media-right .secondary-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 865px;
+    margin: 80px auto;
+}
+.showcast-grid img {
+    width: 100%;
+}
+
+/* block with media one the left */
+.showcast-grid .block-media-left {
+    background-color: deepskyblue;
+}
+.showcast-grid .block-media-left .block-media {
+    float: left;
+    width: 45%;
+    height: 150px;
+    margin: 0;
+}
+.showcast-grid .block-media-left .block-intro {
+    text-align: left;
+    float: right;
+    width: 45%;
+}
+.video-grid .block-media-left .block-media {
+    float: left;
+    width: 400px;
+    height: auto;
+    margin: 0;
+}
+.video-grid .block-media-left .block-intro {
+    text-align: left;
+    float: right;
+    width: 45%;
+}
+
+/* block with media one the right */
+.showcast-grid .block-media-right {
+    background-color: yellow;
+}
+.showcast-grid .block-media-right .block-media {
+    float: right;
+    width: 45%;
+    height: 150px;
+    margin: 0;
+}
+.showcast-grid .block-media-right .block-intro {
+    float: left;
+    text-align: right;
+    width: 45%;
+}
+

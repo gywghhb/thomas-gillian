@@ -1,0 +1,21 @@
+/*
+* Tom's Material Monochrome Theme - card extension v0.1
+* Copyright 2016, Fenghao Guo
+* twitter: @gywghhb
+* Under no license,  use under author's consent.
+* 1/3/2016
+*/
+
+/* Card style */
+.gird td {
+    vertical-align: top;
+}
+.card {
+    /* Next step: make the two columns of card the same width w/o specifying it */
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    padding: 10px 20px;
+    margin: 10px 5px auto;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
